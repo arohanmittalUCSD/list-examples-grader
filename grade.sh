@@ -8,7 +8,8 @@ echo 'Finished cloning'
 #
 # hash=$(find -type f -name "ListExamples.java")
 # cp $hash student-submission/ListExamples.java
-# cd student-submission
+
+cd student-submission
 
 if test -f "ListExamples.java"; then 
     echo "File Exists"
